@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 200vh;
+}
+
+.navigation{
+    width: 100%;
+    height: 100px;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    color: #fff;
+    font-size: 60px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.collection{
+    display: flex;
+}
+
+.collection_item{
+    list-style-type: none;
+    margin: 0px 40px;
+    font-size: 20px;
+}
+
+.item_link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation_login{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 12px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.banner{
+    width: 100%;
+    height: 600px;
+    background-image: url('https://wwaarc.org/wp-content/uploads/2018/05/walmart-2018-sponsor-banner.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.products{
+    width: 90%;
+    height: 400px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_item{
+    width: 330px;
+    height: 360px;
+    background-color: #fff;
+    box-shadow: rgb(26, 164, 255) 2px 0px 24px;
+    border-radius: 15px;
+}
+
+.product_item > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.href{
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    border: 2px solid dodgerblue;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50px;
+    background: transparent;
+}
+
+.IELTS{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 4px solid black;
+    transition: 0.5s;
+}
+
+.btn > a:hover{
+    color: purple;
+    transition: 0.5s;
+}
+
+.see_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.item_link:hover{
+    color: black;
+    transition: 1.2s;
+}
+
+.logo:hover{
+    color: black;
+    transition: 1.2s;
+}
+
+.navigation_login:hover{
+    background-color: black;
+    transition: 1.2s;
+}
+
+.navigation_login >a:hover{
+    color: #fff;
+    transition: 1.2s;
+}
+
+.product_item:hover{
+    transition: 0.4s;
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow:  rgb(0, 0, 124) 2px 0px 24px;
+}
+
+.product_info{
+    width: 90%;
+    height: 500px;
+    margin: 0px 5%;
+    display: flex;
+}
+
+.info_image{
+    margin: 3% 50px 0px 50px;
+    height: 80%;
+}
+
+.info_title{
+    font-size: 55px;
+    padding: 50px 0px;
+}
+
+.info_description{
+    font-size: 22px;
+    padding-right: 100px;
+    line-height: 40px;
+    color: #646464;
+}
+
+.info_button{
+    padding: 10px 25px;
+    font-size: 18px;
+    margin: 15px 0px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    background-color: #0071E3;
+    cursor: pointer;
+}
